@@ -1,0 +1,22 @@
+{
+  "name": "jiofi-status",
+  "version": "0.0.5",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "start": "electron ."
+  },
+  "author": "rishabhrpg",
+  "license": "MIT",
+  "dependencies": {
+    "node-html-parser": "^1.1.10",
+    "openurl": "^1.1.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-builder": "^20.28.4"
+  }
+}
